@@ -24,15 +24,17 @@ And **lots** of other *fun* stuff.
 > They can span multiple paragraphs,
 > if you like.
 
-### Subscript
+### GitHub Markdown Syntax
+
+#### Subscript
 H~2~0
 
-### Footnote
+#### Footnote
 Here is an inline note.^[Inlines notes are easier to write, since
 you don't have to pick an identifier and move down to type the
 note.]
 
-### Definition lists
+#### Definition lists 
 Term 1
 
 :   Definition 1
@@ -42,11 +44,11 @@ Term 2
 :   Definition 2
     Third paragraph of definition 2.
 
-### Abbreviation
+#### Abbreviation
 *[HTML]: Hyper Text Markup Language
 *[W3C]:  World Wide Web Consortium
 The HTML specification
 is maintained by the W3C.
 
-### Add a class or other attributes to content.
+#### Add a class or other attributes to content.
 here be dragons {.warning}
