@@ -8,12 +8,12 @@ import '../css/markdown-styles'
 import { rhythm } from '../utils/typography'
 
 module.exports = React.createClass({
-  propTypes () {
+  propTypes() {
     return {
       children: React.PropTypes.any,
     }
   },
-  render () {
+  render() {
     return (
       <div>
         <Headroom
@@ -23,21 +23,21 @@ module.exports = React.createClass({
           style={{
             background: 'lightgray',
           }}
-        >
+          >
           <Container
             style={{
               maxWidth: 960,
               paddingTop: 0,
-              padding: `${rhythm(1)} ${rhythm(3/4)}`,
+              padding: `${rhythm(1)} ${rhythm(3 / 4)}`,
             }}
-          >
+            >
             <Link
               to={prefixLink('/')}
               style={{
                 color: 'black',
                 textDecoration: 'none',
               }}
-            >
+              >
               Gatsby!!!
             </Link>
           </Container>
@@ -45,10 +45,10 @@ module.exports = React.createClass({
         <Container
           style={{
             maxWidth: 960,
-            padding: `${rhythm(1)} ${rhythm(3/4)}`,
+            padding: `${rhythm(1)} ${rhythm(3 / 4)}`,
             paddingTop: 0,
           }}
-        >
+          >
           {this.props.children}
         </Container>
       </div>
