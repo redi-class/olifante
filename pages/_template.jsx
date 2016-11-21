@@ -17,12 +17,8 @@ module.exports = React.createClass({
     return (
       <div>
         <Headroom
-          wrapperStyle={{
-            marginBottom: rhythm(1),
-          }}
-          style={{
-            background: 'lightgray',
-          }}
+          wrapperStyle={{ marginBottom: rhythm(1) }}
+          style={{ background: 'lightgray' }}
           >
           <Container
             style={{
@@ -38,7 +34,7 @@ module.exports = React.createClass({
                 textDecoration: 'none',
               }}
               >
-              Gatsby!!!
+              Welcome to ReDI School!!!
             </Link>
           </Container>
         </Headroom>
